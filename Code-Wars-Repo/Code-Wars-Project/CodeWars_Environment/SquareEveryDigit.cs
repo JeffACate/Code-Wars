@@ -21,21 +21,29 @@ namespace CodeWars_Environment
         }
         public static int SquareDigits(int testNumber)
         {
-            testNumber
+            Stack<string> squaredDigit = new Stack<string>();
+            int result;
             // parse number to int[]
-            foreach(char number in testNumber)
+            for (int i = testNumber; i >  0; i = (i - (i % 10))/10)
             {
+                int number = i % 10;
+                squaredDigit.Push(Math.Pow(number,2).ToString());
                 
             }
             // square each number and store in a string
+            string resultAsStrings = "";
+            while(squaredDigit.Count > 0)
+            {
+                resultAsStrings = resultAsStrings + squaredDigit.Pop().ToString();
+            }
+            result = Convert.ToInt32(resultAsStrings);
 
-            // return result[]
-            return 0;
+            return result;
         }
 
         private static int GetNumber()
         {
-            return 9119;
+            return 123;
         }
     }
 }
