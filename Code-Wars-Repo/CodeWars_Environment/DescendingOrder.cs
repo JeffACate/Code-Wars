@@ -10,8 +10,8 @@ namespace CodeWars_Environment
     {
         public static void Run()
         {
-            int answer = 0;
-            answer = CreateDescendingOrder(123456789);
+            int answer;
+            answer = CreateDescendingOrder(145263);
             Console.WriteLine(answer);
             Console.ReadLine();
         }
@@ -34,7 +34,7 @@ namespace CodeWars_Environment
             {
                 resultAsString = resultAsString + numb;
             }
-            Console.WriteLine(resultAsString);
+            result = Convert.ToInt32(resultAsString);
             return result;
         }
     }
