@@ -22,7 +22,13 @@ namespace CodeWars_Environment
             // Bust a move right here
             while (num > 0)
             {
-                numbersInNum.Add(num)
+                int tens = num % 10;
+                numbersInNum.Add(tens);
+                num = (num - tens) / 10;
+            }
+            foreach(int  numb in numbersInNum)
+            {
+                Console.Write(numb + " ");
             }
             return result;
         }
