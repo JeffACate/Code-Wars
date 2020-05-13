@@ -10,8 +10,7 @@ namespace CodeWars_Environment
     {
         public static void Run()
         {
-            int answer;
-            answer = CreateDescendingOrder(145263);
+            int answer = CreateDescendingOrder(0);
             Console.WriteLine(answer);
             Console.ReadLine();
         }
@@ -20,12 +19,21 @@ namespace CodeWars_Environment
             int result = 0;
             List<int> numbersInNum = new List<int>();
             // Bust a move right here
-            while (num > 0)
+
+            if (num.Equals(0))
             {
-                int tens = num % 10;
-                numbersInNum.Add(tens);
-                num = (num - tens) / 10;
+                return 0;
             }
+            else
+            {
+                while (num > 0)
+                {
+                    int tens = num % 10;
+                    numbersInNum.Add(tens);
+                    num = (num - tens) / 10;
+                }
+            }
+            
             numbersInNum.Sort();
             numbersInNum.Reverse();
 
@@ -34,7 +42,7 @@ namespace CodeWars_Environment
             {
                 resultAsString = resultAsString + numb;
             }
-            result = Convert.ToInt32(resultAsString);
+            result = Int32.Parse(resultAsString);
             return result;
         }
     }
