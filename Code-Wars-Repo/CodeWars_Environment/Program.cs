@@ -10,7 +10,9 @@ namespace CodeWars_Environment
     {
         static void Main(string[] args)
         {
-            SquareEveryDigit.Run();
+            //SquareEveryDigit.Run();
+            
+            DescendingOrder.Run();
         }
     }
 }
