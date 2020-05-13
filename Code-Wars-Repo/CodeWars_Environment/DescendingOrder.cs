@@ -26,6 +26,8 @@ namespace CodeWars_Environment
                 numbersInNum.Add(tens);
                 num = (num - tens) / 10;
             }
+            numbersInNum.Sort();
+            numbersInNum.Reverse();
             foreach(int  numb in numbersInNum)
             {
                 Console.Write(numb + " ");
