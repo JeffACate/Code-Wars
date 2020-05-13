@@ -11,7 +11,7 @@ namespace CodeWars_Environment
         public static void Run()
         {
             int answer = 0;
-            answer = CreateDescendingOrder(21445);
+            answer = CreateDescendingOrder(123456789);
             Console.WriteLine(answer);
             Console.ReadLine();
         }
@@ -28,10 +28,13 @@ namespace CodeWars_Environment
             }
             numbersInNum.Sort();
             numbersInNum.Reverse();
-            foreach(int  numb in numbersInNum)
+
+            string resultAsString = "";
+            foreach(int numb in numbersInNum)
             {
-                Console.Write(numb + " ");
+                resultAsString = resultAsString + numb;
             }
+            Console.WriteLine(resultAsString);
             return result;
         }
     }
