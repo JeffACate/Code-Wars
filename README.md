@@ -19,3 +19,51 @@ Tags:
     MATHEMATICS
     ALGORITHMS
     NUMBERS
+
+==============================
+
+Name:
+    DescendingOrder
+    
+Difficulty:
+    7 kyu
+
+Instructions:
+
+    Your task is to make a function that can take any non-negative integer as a argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+
+    Examples:
+    Input: 21445 Output: 54421
+
+    Input: 145263 Output: 654321
+
+    Input: 123456789 Output: 987654321
+
+Tags:
+    FUNDAMENTALS
+    FUNCTIONS
+    CONTROL FLOW
+    BASIC LANGUAGE FEATURES
+
+==============================
+
+Name:
+    Duplicate Encoder
+Difficulty:
+    6 kyu
+Instructions:
+    The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+
+    Examples
+    "din"      =>  "((("
+    "recede"   =>  "()()()"
+    "Success"  =>  ")())())"
+    "(( @"     =>  "))((" 
+    Notes
+
+    Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
+
+Tags: 
+    FUNDAMENTALS
+    STRINGS
+    ARRAYS
