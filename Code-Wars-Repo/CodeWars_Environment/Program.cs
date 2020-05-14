@@ -11,8 +11,8 @@ namespace CodeWars_Environment
         static void Main(string[] args)
         {
             //SquareEveryDigit.Run();
-
-            DescendingOrder.Run();
+            //DescendingOrder.Run();
+            DuplicateEncoder.Run();
             
         }
     }
