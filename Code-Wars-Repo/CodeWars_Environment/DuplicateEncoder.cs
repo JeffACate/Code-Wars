@@ -21,13 +21,24 @@ namespace CodeWars_Environment
         private static string EncodeDuplicate(string word)
         {
             string encoding = "";
+            int count = 1;
             List<char> checkedLetters = new List<char>();
             List<char> charactersInWord = new List<char>();
             foreach (char character in word)
             {
-                charactersInWord.Add(character);
+                if (!charactersInWord.Contains(character))
+                {
+                    charactersInWord.Add(character);
+                }
+                
             }
+            foreach (char character in charactersInWord)
+            {
+                if (true)
+                {
 
+                } 
+            }
             return encoding;
         }
     }
