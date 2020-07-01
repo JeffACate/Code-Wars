@@ -9,7 +9,7 @@
 |  Notes | The function accepts an integer and returns an integer |
 | Tags | Fundamentals Mathematics Algorithms Numbers |
 
-####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DescendingOrder.cs"> DescendingOrder </a>
+#### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DescendingOrder.cs"> DescendingOrder </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty | 7 kyu  | 
@@ -18,7 +18,7 @@
 |  Notes | | 
 | Tags | Fundamentals  Functions Control Flow Basic Language Features |
 
-####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DuplicateEncoder.cs"> DuplicateEncoder </a>
+#### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DuplicateEncoder.cs"> DuplicateEncoder </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty  | 6 kyu | 
