@@ -1,6 +1,4 @@
-# Code-Wars
-
-### Kata
+# Code-Wars | Katas
 
 ####  Name: SquareEveryDigit
 |     Heading      |   Details  |
@@ -29,7 +27,7 @@
 |  Notes | Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input! |
 | Tags | Fundamentals Strings Arrays |
 
-### Template
+## Template
 
 ####  Name: 
 |   Heading    |   Details  |
