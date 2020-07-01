@@ -50,6 +50,7 @@
     <Compile Include="DescendingOrder.cs" />
     <Compile Include="DuplicateEncoder.cs" />
     <Compile Include="FindIntAppearingOddTimes.cs" />
+    <Compile Include="ListFiltering.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SquareEveryDigit.cs" />
