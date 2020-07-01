@@ -16,7 +16,7 @@
 | Instructions | Your task is to make a function that can take any non-negative integer as a argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number. |
 | Examples | Input: 21445 Output: 54421<br />  Input: 145263 Output: 654321<br />  Input: 123456789 Output: 987654321 | 
 |  Notes | | 
-| Tags | Fundamentals  Functions Control Flow Basic Language Features |
+| Tags | Fundamentals<br/>  Functions<br/> Control Flow<br/> Basic Language Features |
 
 #### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DuplicateEncoder.cs"> DuplicateEncoder </a>
 |     Heading      |   Details  |
@@ -25,7 +25,7 @@
 | Instructions  | The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate. |
 | Examples | "din"=>"(((" <br /> "recede"=>"()()()"<br /> "Success"=>")())())"<br /> "(( @"=>"))((" |
 |  Notes | Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input! |
-| Tags | Fundamentals Strings Arrays |
+| Tags | Fundamentals<br/> Strings<br/> Arrays |
 
 ## Template
 
