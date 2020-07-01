@@ -38,10 +38,19 @@
 | Notes        | There will always be only one integer that appears an odd number of times. |
 | Tags         | Fundamentals |
 
+####  Name: <a href="#">Triboonacci Seuence</a>
+|   Heading    |   Details  |
+| -----------  | ---------- |
+| Difficulty   | 6 kyu |
+| Instructions | Well met with Fibonacci bigger brother, AKA Tribonacci. As the name may already reveal, it works basically like a Fibonacci, but summing the last 3 (instead of 2) numbers of the sequence to generate the next. |
+| Examples     | [1, 1, 1] => [1, 1 ,1, 3, 5, 9, 17, 31, ...]<br/> |
+| Notes        | [0, 0, 1] => [0, 0, 1, 1, 2, 4, 7, 13, 24, ...]|
+| Tags         | Fundamentals<br/> Sequences<br/> Arrays<br/> Arithmetic<br/> Mathamatics<br/> Algorithms<br/> Numbers<br/> Lists<br/> Data Structures |
+
 ####  Name: <a href="#">nameLink</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
-| Difficulty   | |
+| Difficulty   |  kyu |
 | Instructions | |
 | Examples     | |
 | Notes        | |
