@@ -38,7 +38,7 @@
 | Notes        | There will always be only one integer that appears an odd number of times. |
 | Tags         | Fundamentals |
 
-####  Name: <a href="#">Triboonacci Sequence</a>
+####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/TribonacciSequence.cs">Triboonacci Sequence</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
 | Difficulty   | 6 kyu |
