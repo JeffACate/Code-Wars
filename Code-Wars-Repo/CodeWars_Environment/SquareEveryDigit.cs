@@ -11,11 +11,8 @@ namespace CodeWars_Environment
 
         public static void Run()
         {
-            // get number to test - input
-            int testNumber = GetNumber();
-            //square number
+            int testNumber = 123;
             int squaredNumber = SquareDigits(testNumber);
-
             Console.WriteLine($"{testNumber} processed is {squaredNumber}");
             Console.ReadLine();
         }
@@ -23,14 +20,11 @@ namespace CodeWars_Environment
         {
             Stack<string> squaredDigit = new Stack<string>();
             int result;
-            // parse number to int[]
             for (int i = testNumber; i >  0; i = (i - (i % 10))/10)
             {
                 int number = i % 10;
                 squaredDigit.Push(Math.Pow(number,2).ToString());
-                
             }
-            // square each number and store in a string
             string resultAsStrings = "";
             while(squaredDigit.Count > 0)
             {
@@ -41,9 +35,5 @@ namespace CodeWars_Environment
             return result;
         }
 
-        private static int GetNumber()
-        {
-            return 123;
-        }
     }
 }

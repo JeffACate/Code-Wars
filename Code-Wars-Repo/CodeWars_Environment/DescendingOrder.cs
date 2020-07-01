@@ -10,7 +10,8 @@ namespace CodeWars_Environment
     {
         public static void Run()
         {
-            int answer = CreateDescendingOrder(0);
+            int input = 0;
+            int answer = CreateDescendingOrder(input);
             Console.WriteLine(answer);
             Console.ReadLine();
         }

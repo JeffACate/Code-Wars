@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace CodeWars_Environment
 {
-    class Program
+    public static class Application
     {
-        static void Main(string[] args)
+        public static void Start()
         {
-            Application.Start();
+            SquareEveryDigit.Run();
+            DescendingOrder.Run();
+            DuplicateEncoder.Run();
         }
     }
 }

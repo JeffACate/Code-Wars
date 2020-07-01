@@ -13,6 +13,7 @@ namespace CodeWars_Environment
             string word = "(( @";
             string encoding = EncodeDuplicate(word);
             Console.WriteLine(encoding);
+            Console.ReadLine();
         }
         public static string EncodeDuplicate(string word)
         {
