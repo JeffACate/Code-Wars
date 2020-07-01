@@ -10,11 +10,8 @@ namespace CodeWars_Environment
     {
         public static void Run()
         {
-            // GET a string
             string word = "(( @";
-            // Call method
             string encoding = EncodeDuplicate(word);
-            //return new string;
             Console.WriteLine(encoding);
         }
         public static string EncodeDuplicate(string word)
@@ -37,4 +34,4 @@ namespace CodeWars_Environment
             return result;
         }
     }
-}
+} 
