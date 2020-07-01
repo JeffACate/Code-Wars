@@ -1,6 +1,6 @@
 # Code-Wars | Katas
 
-#### Name: <a href="https://github.com/JeffACate/tree/master/Code-Wars/Code-Wars-Repo/CodeWars_Environment/SquareEveryDigit.cs"> SquareEveryDigit </a>
+#### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SquareEveryDigit.cs"> SquareEveryDigit </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty  | 7 kyu  |
