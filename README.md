@@ -1,7 +1,8 @@
 # Code-Wars
 
-### Kata
+## Kata
 
+###  Name: SquareEveryDigit
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |     Name      |  SquareEveryDigit |
@@ -11,27 +12,27 @@
 |  Notes | The function accepts an integer and returns an integer |
 | Tags | Fundamentals Mathematics Algorithms Numbers |
 
+###  Name: DescendingOrder
 |     Heading      |   Details  |
 | ------------- | ------------- |
-|     Name      | DescendingOrder | 
 |   Difficulty | 7 kyu  | 
 | Instructions | Your task is to make a function that can take any non-negative integer as a argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number. |
 | Examples | Input: 21445 Output: 54421  Input: 145263 Output: 654321  Input: 123456789 Output: 987654321 | 
 |  Notes | | 
 | Tags | Fundamentals  Functions Control Flow Basic Language Features |
 
+###  Name: DuplicateEncoder
 |     Heading      |   Details  |
 | ------------- | ------------- |
-|     Name      | DuplicateEncoder | 
 |   Difficulty  | 6 kyu | 
 | Instructions | The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate. |
 | Examples | "din"=>"(((" "recede"=>"()()()" "Success"=>")())())" "(( @"=>"))((" |
 |  Notes | Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input! |
 | Tags | Fundamentals Strings Arrays |
 
+###  Name: 
 |   Heading   |   Details  |
 | ----------- | ---------- |
-| Name | |
 | Difficulty | |
 | Instructions | |
 | Examples | |
