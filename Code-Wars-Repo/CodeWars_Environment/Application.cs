@@ -14,6 +14,7 @@ namespace CodeWars_Environment
             DescendingOrder.Run();
             DuplicateEncoder.Run();
             FindIntAppearingOddTimes.Run();
+            TribonacciSequence.Run();
         }
     }
 }
