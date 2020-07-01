@@ -29,7 +29,7 @@
 
 ## Template
 
-####  Name: <a href="#">Find the odd int</a>
+####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/FindIntAppearingOddTimes.cs">Find the odd int</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
 | Difficulty   | 6 kyu |
