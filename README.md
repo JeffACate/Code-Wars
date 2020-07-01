@@ -46,13 +46,21 @@
 | Notes        | [0, 0, 1] => [0, 0, 1, 1, 2, 4, 7, 13, 24, ...] |
 | Tags         | Fundamentals<br/> Sequences<br/> Arrays<br/> Arithmetic<br/> Mathamatics<br/> Algorithms<br/> Numbers<br/> Lists<br/> Data Structures |
 
+####  Name: <a href="#">List Filtering</a>
+|   Heading    |   Details  |
+| -----------  | ---------- |
+| Difficulty   | 7 kyu |
+| Instructions | In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out. |
+| Examples     | {1, 2, "a", "b"} => {1, 2}<br/> {1, 2, "a", "b", 0, 15} => {1, 2, 0, 15}<br/> {1, 2, "a", "b", "aasf", "1", "123", 231} => {1, 2, 231}<br />  |
+| Notes        |  |
+| Tags         | Fundamentals<br/> Lists<br/> Data Structures<br/> Filtering<br/> Algorithms |
 ## Template
 
 ####  Name: <a href="#">nameLink</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
 | Difficulty   |  kyu |
-| Instructions | |
-| Examples     | |
-| Notes        | |
+| Instructions |  |
+| Examples     | <br/> |
+| Notes        |  |
 | Tags         | <br/>|
