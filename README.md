@@ -7,7 +7,7 @@
 | Instructions | Welcome. In this kata, you are asked to square every digit of a number. |
 | Examples | 9119 => 811181 |
 |  Notes | The function accepts an integer and returns an integer |
-| Tags | Fundamentals Mathematics Algorithms Numbers |
+| Tags | Fundamentals<br/> Mathematics<br/> Algorithms<br/> Numbers |
 
 #### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DescendingOrder.cs"> DescendingOrder </a>
 |     Heading      |   Details  |
