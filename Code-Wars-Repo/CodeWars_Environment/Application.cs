@@ -10,10 +10,10 @@ namespace CodeWars_Environment
     {
         public static void Start()
         {
-            SquareEveryDigit.Run();
-            DescendingOrder.Run();
-            DuplicateEncoder.Run();
-            FindIntAppearingOddTimes.Run();
+            //SquareEveryDigit.Run();
+            //DescendingOrder.Run();
+            //DuplicateEncoder.Run();
+            //FindIntAppearingOddTimes.Run();
             TribonacciSequence.Run();
         }
     }

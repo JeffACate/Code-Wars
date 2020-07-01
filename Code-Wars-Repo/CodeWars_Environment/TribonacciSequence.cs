@@ -20,7 +20,29 @@ namespace CodeWars_Environment
         }
         private static double[] ProcessTribonacciSequence(double[] signature, int n)
         {
-            throw new NotImplementedException();
+            if(n == 0)
+            {
+                return new double[0];
+            }
+            else
+            {
+                double[] sequence = new double[n];
+                
+                for (int i = 0; i < n; i++)
+                    {
+                        if (i < 3)
+                        {
+                            sequence[i] = signature[i];
+                        }
+                        else
+                        {
+                            sequence[i] = sequence[i-1] + sequence[i - 2] + sequence[i - 3];
+                        }
+                    }
+                return sequence;
+            }
+            
+
         }
         private static void DisplayResults(double[] results)
         {
