@@ -27,7 +27,6 @@
 |  Notes | Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input! |
 | Tags | Fundamentals<br/> Strings<br/> Arrays |
 
-## Template
 
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/FindIntAppearingOddTimes.cs">Find the odd int</a>
 |   Heading    |   Details  |
@@ -46,6 +45,8 @@
 | Examples     | [1, 1, 1] => [1, 1 ,1, 3, 5, 9, 17, 31, ...]<br/> |
 | Notes        | [0, 0, 1] => [0, 0, 1, 1, 2, 4, 7, 13, 24, ...] |
 | Tags         | Fundamentals<br/> Sequences<br/> Arrays<br/> Arithmetic<br/> Mathamatics<br/> Algorithms<br/> Numbers<br/> Lists<br/> Data Structures |
+
+## Template
 
 ####  Name: <a href="#">nameLink</a>
 |   Heading    |   Details  |
