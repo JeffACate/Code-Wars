@@ -1,6 +1,6 @@
 # Code-Wars | Katas
 
-#### Name: <a href=""> SquareEveryDigit </a>
+#### Name: <a href="https://github.com/JeffACate/Code-Wars/Code-Wars-Repo/CodeWars_Environment/SquareEveryDigit.cs"> SquareEveryDigit </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty  | 7 kyu  |
@@ -9,7 +9,7 @@
 |  Notes | The function accepts an integer and returns an integer |
 | Tags | Fundamentals Mathematics Algorithms Numbers |
 
-####  Name: DescendingOrder </a>
+####  Name: <a href="https://github.com/JeffACate/Code-Wars/Code-Wars-Repo/CodeWars_Environment/DescendingOrder.cs"> DescendingOrder </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty | 7 kyu  | 
@@ -18,7 +18,7 @@
 |  Notes | | 
 | Tags | Fundamentals  Functions Control Flow Basic Language Features |
 
-####  Name: DuplicateEncoder </a>
+####  Name: <a href="https://github.com/JeffACate/Code-Wars/Code-Wars-Repo/CodeWars_Environment/DuplicateEncoder.cs"> DuplicateEncoder </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty  | 6 kyu | 
