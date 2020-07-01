@@ -11,35 +11,30 @@ namespace CodeWars_Environment
         public static void Run()
         {
             // GET a string
-            string word = "Hello World";
+            string word = "(( @";
             // Call method
             string encoding = EncodeDuplicate(word);
             //return new string;
             Console.WriteLine(encoding);
         }
-
-        private static string EncodeDuplicate(string word)
+        public static string EncodeDuplicate(string word)
         {
-            string encoding = "";
-            int count = 1;
-            List<char> checkedLetters = new List<char>();
-            List<char> charactersInWord = new List<char>();
-            foreach (char character in word)
+            word = word.ToLower();
+            string result = "";
+            int count;
+            foreach (var letter in word)
             {
-                if (!charactersInWord.Contains(character))
+                count = word.Count(c => c == letter);
+                if (count == 1)
                 {
-                    charactersInWord.Add(character);
+                    result += "(";
                 }
-                
-            }
-            foreach (char character in charactersInWord)
-            {
-                if (true)
+                else
                 {
-
-                } 
+                    result += ")";
+                }
             }
-            return encoding;
+            return result;
         }
     }
 }

@@ -13,7 +13,7 @@ namespace CodeWars_Environment
             //SquareEveryDigit.Run();
             //DescendingOrder.Run();
             DuplicateEncoder.Run();
-            
+            Console.ReadLine();
         }
     }
 }
