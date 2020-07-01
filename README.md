@@ -1,6 +1,6 @@
 # Code-Wars | Katas
 
-####  Name: SquareEveryDigit
+#### Name: <a href=""> SquareEveryDigit </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty  | 7 kyu  |
@@ -9,7 +9,7 @@
 |  Notes | The function accepts an integer and returns an integer |
 | Tags | Fundamentals Mathematics Algorithms Numbers |
 
-####  Name: DescendingOrder
+####  Name: DescendingOrder </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty | 7 kyu  | 
@@ -18,7 +18,7 @@
 |  Notes | | 
 | Tags | Fundamentals  Functions Control Flow Basic Language Features |
 
-####  Name: DuplicateEncoder
+####  Name: DuplicateEncoder </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
 |   Difficulty  | 6 kyu | 
@@ -29,7 +29,7 @@
 
 ## Template
 
-####  <a href="">Name:</a>
+####  Name: <a href="#">nameLink</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
 | Difficulty   | |
