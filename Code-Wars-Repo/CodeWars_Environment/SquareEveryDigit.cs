@@ -8,7 +8,6 @@ namespace CodeWars_Environment
 {
     class SquareEveryDigit
     {
-
         public static void Run()
         {
             int testNumber = 123;

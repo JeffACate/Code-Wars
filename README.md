@@ -29,6 +29,15 @@
 
 ## Template
 
+####  Name: <a href="#">Find the odd int</a>
+|   Heading    |   Details  |
+| -----------  | ---------- |
+| Difficulty   | 6 kyu |
+| Instructions | Given an array, find the integer that appears an odd number of times. |
+| Examples     | \[20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5\] => 5 |
+| Notes        | There will always be only one integer that appears an odd number of times. |
+| Tags         | Fundamentals |
+
 ####  Name: <a href="#">nameLink</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
