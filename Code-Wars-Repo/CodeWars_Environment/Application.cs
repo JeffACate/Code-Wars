@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CodeWars_Environment;
 
 namespace CodeWars_Environment
 {
@@ -15,7 +16,8 @@ namespace CodeWars_Environment
             //DuplicateEncoder.Run();
             //FindIntAppearingOddTimes.Run();
             //TribonacciSequence.Run();
-            ListFiltering.Run();
+            /* ListFiltering.Run(); 1408: Incomplete */
+            SplitStringIntoPair.Run();
         }
     }
 }
