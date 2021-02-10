@@ -14,6 +14,16 @@
 
 <hr/>
 
+####  Name: <a href="#">https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SplitStringIntoPair.cs</a>
+
+|   Heading    |   Details  |
+| -----------  | ---------- |
+| Difficulty   | 6 kyu |
+| Instructions | Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_'). |
+| Examples     | "abc" => ["ab", "c_"] <br/> "abcdef" => ["ab", "cd", "ef"] <br/> |
+| Notes        | N/A |
+| Tags         |Algorithms <br/>Regular Expressions <br/>Declarative Programming <br/> Advanced Language Features <br/> Fundamentals <br/> Strings <br/>|
+
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/ListFiltering.cs">List Filtering</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
@@ -67,3 +77,4 @@
 | Examples | 9119 => 811181 |
 |  Notes | The function accepts an integer and returns an integer |
 | Tags | Fundamentals<br/> Mathematics<br/> Algorithms<br/> Numbers |
+
