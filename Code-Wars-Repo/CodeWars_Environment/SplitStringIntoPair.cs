@@ -17,14 +17,7 @@ namespace CodeWars_Environment
             string[] sol = new string[str.Length / 2];
             // loop string and add 2 characters to the array
             // if last string < 2 add "_" 
-            if(str.Length % 2 == 0)
-            {
-                Console.WriteLine("Even");
-            }
-            else
-            {
-                Console.WriteLine("Odd");
-            }
+            sol = str.Split(str.Length / 2);
             return sol;
         }
     }

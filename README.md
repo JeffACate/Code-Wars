@@ -14,7 +14,7 @@
 
 <hr/>
 
-####  Name: <a href="#">https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SplitStringIntoPair.cs</a>
+####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SplitStringIntoPair.cs">Split Strings</a>
 
 |   Heading    |   Details  |
 | -----------  | ---------- |
