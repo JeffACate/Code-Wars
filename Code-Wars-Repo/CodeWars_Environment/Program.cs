@@ -11,6 +11,7 @@ namespace CodeWars_Environment
         static void Main(string[] args)
         {
             Application.Start();
+            Console.ReadLine();
         }
     }
 }

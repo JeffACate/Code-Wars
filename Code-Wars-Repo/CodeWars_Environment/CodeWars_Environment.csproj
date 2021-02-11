@@ -74,6 +74,7 @@
     <Compile Include="SplitStringIntoPair.cs" />
     <Compile Include="SquareEveryDigit.cs" />
     <Compile Include="TribonacciSequence.cs" />
+    <Compile Include="YoureASquare.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
