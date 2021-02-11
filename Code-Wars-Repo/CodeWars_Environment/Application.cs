@@ -16,8 +16,8 @@ namespace CodeWars_Environment
             //DuplicateEncoder.Run();
             //FindIntAppearingOddTimes.Run();
             //TribonacciSequence.Run();
-            /* ListFiltering.Run(); 1408: Incomplete */
-            SplitStringIntoPair.Run();
+            //SplitStringIntoPair.Run();
+            ListFiltering.Run();
         }
     }
 }

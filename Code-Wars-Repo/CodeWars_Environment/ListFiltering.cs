@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Web.Helpers;
 
 namespace CodeWars_Environment
 {
@@ -11,13 +10,20 @@ namespace CodeWars_Environment
         public static void Run()
         {
             List<object> list = new List<object>() { 1, 2, "a", "b" };
-            List<int> numbers = GetIntegersFromList(list);
+            IEnumerable<int> numbers = GetIntegersFromList(list);
+            Console.WriteLine(Json.Encode(numbers));
+            Console.ReadLine();
             
         }
-        private static List<int> GetIntegersFromList(List<object> list)
-        {
-            List<int> numbers = new List<int>();
-            throw new NotImplementedException();
+        private static IEnumerable<int> GetIntegersFromList(List<object> listOfObjects)
+        {            
+            foreach (object item in list)
+            {
+                if (item.GetType().Name.ToString().Equals("Int32"))
+                {
+                    numbers.Add(Convert.ToInt32(item));
+                }
+            }
             return numbers;
         }
     }
