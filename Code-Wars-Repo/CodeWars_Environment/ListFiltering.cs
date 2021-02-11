@@ -10,14 +10,18 @@ namespace CodeWars_Environment
         public static void Run()
         {
             List<object> list = new List<object>() { 1, 2, "a", "b" };
+            var list2 = new List<object>() { 1, 2, "aasf", "1", "123", 123 };
             IEnumerable<int> numbers = GetIntegersFromList(list);
+            Console.WriteLine(Json.Encode(numbers));
+            numbers = GetIntegersFromList(list2);
             Console.WriteLine(Json.Encode(numbers));
             Console.ReadLine();
             
         }
         private static IEnumerable<int> GetIntegersFromList(List<object> listOfObjects)
-        {            
-            foreach (object item in list)
+        {
+            List<int> numbers = new List<int> ();
+            foreach (object item in listOfObjects)
             {
                 if (item.GetType().Name.ToString().Equals("Int32"))
                 {

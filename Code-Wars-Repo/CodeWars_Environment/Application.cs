@@ -16,8 +16,8 @@ namespace CodeWars_Environment
             //DuplicateEncoder.Run();
             //FindIntAppearingOddTimes.Run();
             //TribonacciSequence.Run();
-            //SplitStringIntoPair.Run();
-            ListFiltering.Run();
+            //ListFiltering.Run();
+            SplitStringIntoPair.Run();
         }
     }
 }
