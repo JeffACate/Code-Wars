@@ -14,6 +14,21 @@
 
 <hr/>
 
+####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/YoureASquare.cs">You're A Square</a>
+
+|   Heading    |   Details  |
+| -----------  | ---------- |
+| Difficulty   | 7 kyu |
+| Instructions | Given an integral number, determine if it's a square number:
+
+    In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself.
+
+The tests will always use some integral number, so don't worry about that in dynamic typed languages. |
+| Examples     | -1 => false <br/> 0 => true <br/> 3 => false <br/> 4 => true <br/> 25 => true <br/> 26 => false <br/> |
+| Notes        |  |
+| Tags         | Fundamentals |
+
+
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SplitStringIntoPair.cs">Split Strings</a>
 
 |   Heading    |   Details  |
@@ -21,7 +36,7 @@
 | Difficulty   | 6 kyu |
 | Instructions | Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_'). |
 | Examples     | "abc" => ["ab", "c_"] <br/> "abcdef" => ["ab", "cd", "ef"] <br/> |
-| Notes        | N/A |
+| Notes        | |
 | Tags         |Algorithms <br/>Regular Expressions <br/>Declarative Programming <br/> Advanced Language Features <br/> Fundamentals <br/> Strings <br/>|
 
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/ListFiltering.cs">List Filtering</a>
