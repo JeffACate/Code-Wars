@@ -1,6 +1,6 @@
 # Code-Wars | Katas
 
-### \/\/\/ Template \/\/\/
+### \\/\\/\\/ Template \\/\\/\\/
 
 ####  Name: <a href="#">nameLink</a>
 
@@ -20,14 +20,25 @@
 | -----------  | ---------- |
 | Difficulty   | 6 kyu |
 | Instructions |  |
-| Examples     |<br/>| ----------|-----------|-----------|------------|-------------|--------|
-| a .-      | h ....    | o ---     | u ..-      | 1 .----     | 6 -....|
-| b -...    | i ..      | p .--.    | v ...-     | 2 ..---     | 7 --...|
-| c -.-.    | j .---    | q --.-    | w .--      | 3 ...--     | 8 ---..|
-| d -..     | k -.-     | r .-.     | x -..-     | 4 ....-     | 9 ----.|
-| e .       | l .-..    | s ...     | y -.--     | 5 .....     | 0 -----|
-| f ..-.    | m --      | t -       | z --..     |             |        |
-| g --.     | n -.      |           |            |             |        ||
+
+```
+    a .-      h ....    o ---     u ..-      1 .----     6 -....
+    b -...    i ..      p .--.    v ...-     2 ..---     7 --...
+    c -.-.    j .---    q --.-    w .--      3 ...--     8 ---..
+    d -..     k -.-     r .-.     x -..-     4 ....-     9 ----.
+    e .       l .-..    s ...     y -.--     5 .....     0 -----
+    f ..-.    m --      t -       z --..
+    g --.     n -.
+```
+|               |           |
+| -----------  | ---------- |
+| Examples     |  |
+```
+.... . .-.. .-.. ---  .-- --- .-. .-.. -..   → "hello world"
+.---- ... -  .- -. -..  ..--- -. -..         → "1st and 2nd"
+```
+|               |           |
+| -----------  | ---------- |
 | Notes        |  |
 | Tags         | <br/>|
 
@@ -43,6 +54,7 @@
 | Notes        |  The tests will always use some integral number, so don't worry about that in dynamic typed languages. |
 | Tags         | Fundamentals |
 
+<hr/>
 
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SplitStringIntoPair.cs">Split Strings</a>
 
@@ -54,6 +66,8 @@
 | Notes        | |
 | Tags         |Algorithms <br/>Regular Expressions <br/>Declarative Programming <br/> Advanced Language Features <br/> Fundamentals <br/> Strings <br/>|
 
+<hr/>
+
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/ListFiltering.cs">List Filtering</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
@@ -62,6 +76,8 @@
 | Examples     | {1, 2, "a", "b"} => {1, 2}<br/> {1, 2, "a", "b", 0, 15} => {1, 2, 0, 15}<br/> {1, 2, "a", "b", "aasf", "1", "123", 231} => {1, 2, 231}<br />  |
 | Notes        |  |
 | Tags         | Fundamentals<br/> Lists<br/> Data Structures<br/> Filtering<br/> Algorithms |
+
+<hr/>
 
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/TribonacciSequence.cs">Triboonacci Sequence</a>
 |   Heading    |   Details  |
@@ -72,6 +88,8 @@
 | Notes        | [0, 0, 1] => [0, 0, 1, 1, 2, 4, 7, 13, 24, ...] |
 | Tags         | Fundamentals<br/> Sequences<br/> Arrays<br/> Arithmetic<br/> Mathamatics<br/> Algorithms<br/> Numbers<br/> Lists<br/> Data Structures |
 
+<hr/>
+
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/FindIntAppearingOddTimes.cs">Find the odd int</a>
 |   Heading    |   Details  |
 | -----------  | ---------- |
@@ -80,6 +98,8 @@
 | Examples     | [20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5] => 5 |
 | Notes        | There will always be only one integer that appears an odd number of times. |
 | Tags         | Fundamentals |
+
+<hr/>
 
 #### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DuplicateEncoder.cs"> DuplicateEncoder </a>
 |     Heading      |   Details  |
@@ -90,6 +110,8 @@
 |  Notes | Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input! |
 | Tags | Fundamentals<br/> Strings<br/> Arrays |
 
+<hr/>
+
 #### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/DescendingOrder.cs"> DescendingOrder </a>
 |     Heading      |   Details  |
 | ------------- | ------------- |
@@ -98,6 +120,8 @@
 | Examples | Input: 21445 Output: 54421<br />  Input: 145263 Output: 654321<br />  Input: 123456789 Output: 987654321 | 
 |  Notes | | 
 | Tags | Fundamentals<br/>  Functions<br/> Control Flow<br/> Basic Language Features |
+
+<hr/>
 
 #### Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SquareEveryDigit.cs"> SquareEveryDigit </a>
 |     Heading      |   Details  |
@@ -108,4 +132,4 @@
 |  Notes | The function accepts an integer and returns an integer |
 | Tags | Fundamentals<br/> Mathematics<br/> Algorithms<br/> Numbers |
 
-
+<hr/>
