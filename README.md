@@ -14,6 +14,25 @@
 
 <hr/>
 
+####  Name: <a href="https://www.codewars.com/kata/54b0306c56f22d0bf9000ffb">Decode Morse</a>
+
+|   Heading    |   Details  |
+| -----------  | ---------- |
+| Difficulty   | 6 kyu |
+| Instructions |  |
+| Examples     |  | ----------|-----------|-----------|------------|-------------|--------|
+| a .-      | h ....    | o ---     | u ..-      | 1 .----     | 6 -....|
+| b -...    | i ..      | p .--.    | v ...-     | 2 ..---     | 7 --...|
+| c -.-.    | j .---    | q --.-    | w .--      | 3 ...--     | 8 ---..|
+| d -..     | k -.-     | r .-.     | x -..-     | 4 ....-     | 9 ----.|
+| e .       | l .-..    | s ...     | y -.--     | 5 .....     | 0 -----|
+| f ..-.    | m --      | t -       | z --..     |             |        |
+| g --.     | n -.      |           |            |             |        ||
+| Notes        |  |
+| Tags         | <br/>|
+
+<hr/>
+
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/YoureASquare.cs">You're A Square</a>
 
 |   Heading    |   Details  |
@@ -88,4 +107,5 @@
 | Examples | 9119 => 811181 |
 |  Notes | The function accepts an integer and returns an integer |
 | Tags | Fundamentals<br/> Mathematics<br/> Algorithms<br/> Numbers |
+
 
