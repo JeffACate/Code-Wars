@@ -15,6 +15,7 @@ namespace CodeWars_Environment
             Console.WriteLine($" 3 => False => {IsSquare(3)} ");
             Console.WriteLine($" 4 => True  => {IsSquare(4)} ");
             Console.WriteLine($"25 => True  => {IsSquare(25)} ");
+            Console.WriteLine($"26 => False  => {IsSquare(26)} ");
         }
         private static bool IsSquare(int n)
         {
