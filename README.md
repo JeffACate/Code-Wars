@@ -19,10 +19,7 @@
 |   Heading    |   Details  |
 | -----------  | ---------- |
 | Difficulty   | 7 kyu |
-| Instructions | Given an integral number, determine if it's a square number:
-
-    In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself.
-
+| Instructions | Given an integral number, determine if it's a square number: In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself.
 The tests will always use some integral number, so don't worry about that in dynamic typed languages. |
 | Examples     | -1 => false <br/> 0 => true <br/> 3 => false <br/> 4 => true <br/> 25 => true <br/> 26 => false <br/> |
 | Notes        |  |
