@@ -18,8 +18,7 @@ namespace CodeWars_Environment
             //TribonacciSequence.Run();
             //ListFiltering.Run();
             //SplitStringIntoPair.Run();
-            YoureASquare.Run();
-
+            //YoureASquare.Run();
         }
     }
 }
