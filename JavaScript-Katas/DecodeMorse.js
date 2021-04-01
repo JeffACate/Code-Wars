@@ -1,5 +1,7 @@
 function decode(str) {
     // implement morse decode here
+    if(str === '')
+      return '';
     arr = str.split(' ')
     result =  arr.map(function(element) {
       switch (element) {
