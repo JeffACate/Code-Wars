@@ -2,87 +2,117 @@ function decode(str) {
     // implement morse decode here
     arr = str.split(' ')
     arr.forEach(element => {
-      switch (key) {
+      switch (element) {
         case ".-":
-          console.log(a);
+          element = "a";
           break;
         case "-...":
-          console.log(b);
+          element = "b";
           break;
         case "-.-.":
-          console.log(c);
+          element = "c";
           break;
         case "-..":
-          console.log(d);
+          element = "d";
           break;
         case ".":
-          console.log(e);
+          element = "e";
           break;
         case "..-."://here
-          console.log(f);
+          element = "f";
           break;
-        case ".-":
-          console.log(g);
+        case "--.":
+          element = "g";
           break;
-        case ".-":
-          console.log(h);
+        case "....":
+          element = "h";
           break;
-        case ".-":
-          console.log(i);
+        case "..":
+          element = "i";
           break;
-        case ".-":
-          console.log(j);
+        case ".---":
+          element = "j";
           break;
-        case ".-":
-          console.log(k);
+        case "-.-":
+          element = "k";
           break;
-        case ".-":
-          console.log(l);
+        case ".-..":
+          element = "l";
           break;
-        case ".-":
-          console.log(m);
+        case "--":
+          element = "m";
           break;
-        case ".-":
-          console.log(n);
+        case "-.":
+          element = "n";
           break;
-        case ".-":
-          console.log(o);
+        case "---":
+          element = "o";
           break;
-        case ".-":
-          console.log(p);
+        case ".--.":
+          element = "p";
           break;
-        case ".-":
-          console.log(q);
+        case "--.-":
+          element = "q";
           break;
-        case ".-":
-          console.log(r);
+        case ".-.":
+          element = "r";
           break;
-        case ".-":
-          console.log(s);
+        case "...":
+          element = "s";
           break;
-        case ".-":
-          console.log(t);
+        case "-":
+          element = "t";
           break;
-        case ".-":
-          console.log(u);
+        case "..-":
+          element = "u";
           break;
-        case ".-":
-          console.log(v);
+        case "...-":
+          element = "v";
           break;
-        case ".-":
-          console.log(w);
+        case ".--":
+          element = "w";
           break;
-        case ".-":
-          console.log(x);
+        case "-..-":
+          element = "x";
           break;
-        case ".-":
-          console.log(y);
+        case "-.--":
+          element = "y";
           break;
-        case ".-":
-          console.log(z);
+        case "--..":
+          element = "z";
+          break;
+        case ".----":
+          element = "1";
+          break;
+        case "..---":
+          element = "2";
+          break;
+        case "...--":
+          element = "3";
+          break;
+        case "....-":
+          element = "4";
+          break;
+        case ".....":
+          element = "5";
+          break;
+        case "-....":
+          element = "6";
+          break;
+        case "--...":
+          element = "7";
+          break;
+        case "---..":
+          element = "8";
+          break;
+        case "----.":
+          element = "9";
+          break;
+        case "-----":
+          element = "0";
           break;
         default:
-          console.log(" ");
+          element = " ";
             break;
       }
     });
