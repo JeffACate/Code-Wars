@@ -79,8 +79,8 @@ function decode(str) {
           return  " ";
       }
     });
-    console.log(result);    
-    return str;
+    console.log(result.join(''));    
+    return result.join("");
   }
 
 console.log(".... . .-.. .-.. ---  .-- --- .-. .-.. -..   → \"hello world\"", decode(".... . .-.. .-.. ---  .-- --- .-. .-.. -..") === "hello world");
