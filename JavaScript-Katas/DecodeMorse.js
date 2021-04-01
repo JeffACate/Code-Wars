@@ -1,121 +1,85 @@
 function decode(str) {
     // implement morse decode here
     arr = str.split(' ')
-    arr.forEach(element => {
+    result =  arr.map(function(element) {
       switch (element) {
         case ".-":
-          element = "a";
-          break;
+          return  "a";
         case "-...":
-          element = "b";
-          break;
+          return  "b";
         case "-.-.":
-          element = "c";
-          break;
+          return  "c";
         case "-..":
-          element = "d";
-          break;
+          return  "d";
         case ".":
-          element = "e";
-          break;
-        case "..-."://here
-          element = "f";
-          break;
+          return  "e";
+        case "..-.":
+          return  "f";
         case "--.":
-          element = "g";
-          break;
+          return  "g";
         case "....":
-          element = "h";
-          break;
+          return  "h";
         case "..":
-          element = "i";
-          break;
+          return  "i";
         case ".---":
-          element = "j";
-          break;
+          return  "j";
         case "-.-":
-          element = "k";
-          break;
+          return  "k";
         case ".-..":
-          element = "l";
-          break;
+          return  "l";
         case "--":
-          element = "m";
-          break;
+          return  "m";
         case "-.":
-          element = "n";
-          break;
+          return  "n";
         case "---":
-          element = "o";
-          break;
+          return  "o";
         case ".--.":
-          element = "p";
-          break;
+          return  "p";
         case "--.-":
-          element = "q";
-          break;
+          return  "q";
         case ".-.":
-          element = "r";
-          break;
+          return  "r";
         case "...":
-          element = "s";
-          break;
+          return  "s";
         case "-":
-          element = "t";
-          break;
+          return  "t";
         case "..-":
-          element = "u";
-          break;
+          return  "u";
         case "...-":
-          element = "v";
-          break;
+          return  "v";
         case ".--":
-          element = "w";
-          break;
+          return  "w";
         case "-..-":
-          element = "x";
-          break;
+          return  "x";
         case "-.--":
-          element = "y";
-          break;
+          return  "y";
         case "--..":
-          element = "z";
-          break;
+          return  "z";
         case ".----":
-          element = "1";
-          break;
+          return  "1";
         case "..---":
-          element = "2";
-          break;
+          return  "2";
         case "...--":
-          element = "3";
-          break;
+          return  "3";
         case "....-":
-          element = "4";
-          break;
+          return  "4";
         case ".....":
-          element = "5";
-          break;
+          return  "5";
         case "-....":
-          element = "6";
-          break;
+          return  "6";
         case "--...":
-          element = "7";
-          break;
+          return  "7";
         case "---..":
-          element = "8";
-          break;
+          return  "8";
         case "----.":
-          element = "9";
-          break;
+          return  "9";
         case "-----":
-          element = "0";
-          break;
+          return  "0";
         default:
-          element = " ";
-            break;
+          return  " ";
       }
     });
+    console.log(result);    
     return str;
   }
 
