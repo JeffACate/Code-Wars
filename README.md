@@ -19,11 +19,9 @@
 |   Heading    |   Details  |
 | -----------  | ---------- |
 | Difficulty   | 6 kyu |
-| Instructions | 
-Oh no! You have stumbled upon a mysterious signal consisting of beeps of various lengths, and it is of utmost importance that you find out the secret message hidden in the beeps. There are long and short beeps, the longer ones roughly three times as long as the shorter ones. Hmm... that sounds familiar.
+| Instructions | Oh no! You have stumbled upon a mysterious signal consisting of beeps of various lengths, and it is of utmost importance that you find out the secret message hidden in the beeps. There are long and short beeps, the longer ones roughly three times as long as the shorter ones. Hmm... that sounds familiar.
 
-That's right: your job is to implement a decoder for the Morse alphabet. Rather than dealing with actual beeps, we will use a common string encoding of Morse. A long beep is represented by a dash (-) and a short beep by a dot (.). A series of long and short beeps make up a letter, and letters are separated by spaces ( ). Words are separated by double spaces. 
-|
+That's right: your job is to implement a decoder for the Morse alphabet. Rather than dealing with actual beeps, we will use a common string encoding of Morse. A long beep is represented by a dash (-) and a short beep by a dot (.). A series of long and short beeps make up a letter, and letters are separated by spaces ( ). Words are separated by double spaces. |
 
 ```
     a .-      h ....    o ---     u ..-      1 .----     6 -....
