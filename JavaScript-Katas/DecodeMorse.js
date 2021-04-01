@@ -81,9 +81,9 @@ function decode(str) {
           return  " ";
       }
     });
-    console.log(result.join(''));    
     return result.join("");
   }
 
-console.log(".... . .-.. .-.. ---  .-- --- .-. .-.. -..   → \"hello world\"", decode(".... . .-.. .-.. ---  .-- --- .-. .-.. -..") === "hello world");
-console.log(".---- ... -  .- -. -..  ..--- -. -..         → \"1st and 2nd\"", decode(".---- ... -  .- -. -..  ..--- -. -..") === "1st and 2nd");
+console.log("\'.... . .-.. .-.. ---  .-- --- .-. .-.. -..  \' → \"hello world\"", decode(".... . .-.. .-.. ---  .-- --- .-. .-.. -..") === "hello world");
+console.log("\'.---- ... -  .- -. -..  ..--- -. -..        \' → \"1st and 2nd\"", decode(".---- ... -  .- -. -..  ..--- -. -..") === "1st and 2nd");
+console.log("                                            \'\' → \'\'", decode("") === "");
