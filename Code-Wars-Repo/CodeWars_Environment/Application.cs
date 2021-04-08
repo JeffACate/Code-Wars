@@ -19,6 +19,7 @@ namespace CodeWars_Environment
             //ListFiltering.Run();
             //SplitStringIntoPair.Run();
             //YoureASquare.Run();
+            MovingZerosToEnd.Run();
         }
     }
 }
