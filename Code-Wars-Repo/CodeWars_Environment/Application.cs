@@ -11,6 +11,7 @@ namespace CodeWars_Environment
     {
         public static void Start()
         {
+            CustomMath.Run();
             //SquareEveryDigit.Run();
             //DescendingOrder.Run();
             //DuplicateEncoder.Run();
@@ -20,7 +21,6 @@ namespace CodeWars_Environment
             //SplitStringIntoPair.Run();
             //YoureASquare.Run();
             //MovingZerosToEnd.Run();
-            DirectionReduction.Run();
         }
     }
 }
