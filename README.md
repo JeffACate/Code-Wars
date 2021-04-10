@@ -14,66 +14,17 @@
 
 <hr/>
 
-####  Name: <a href="https://www.codewars.com/kata/54b0306c56f22d0bf9000ffb">Decode Morse</a>
-
-|   Heading    |   Details  |
-| -----------  | ---------- |
-| Difficulty   | 6 kyu |
-| Instructions | Oh no! You have stumbled upon a mysterious signal consisting of beeps of various lengths, and it is of utmost importance that you find out the secret message hidden in the beeps. There are long and short beeps, the longer ones roughly three times as long as the shorter ones. Hmm... that sounds familiar.|
-| | That's right: your job is to implement a decoder for the Morse alphabet. Rather than dealing with actual beeps, we will use a common string encoding of Morse. A long beep is represented by a dash (-) and a short beep by a dot (.). A series of long and short beeps make up a letter, and letters are separated by spaces ( ). Words are separated by double spaces. |
-
-```
-    a .-      h ....    o ---     u ..-      1 .----     6 -....
-    b -...    i ..      p .--.    v ...-     2 ..---     7 --...
-    c -.-.    j .---    q --.-    w .--      3 ...--     8 ---..
-    d -..     k -.-     r .-.     x -..-     4 ....-     9 ----.
-    e .       l .-..    s ...     y -.--     5 .....     0 -----
-    f ..-.    m --      t -       z --..
-    g --.     n -.
-```
-
- ### Examples
-```
-.... . .-.. .-.. ---  .-- --- .-. .-.. -..   → "hello world"
-.---- ... -  .- -. -..  ..--- -. -..         → "1st and 2nd"
-```
+|   Kata   |   Code   |   Difficulty   |
+| -------  | -------- | -------------- |
+| [Decode Morse](https://www.codewars.com/kata/54b0306c56f22d0bf9000ffb) | [here](https://github.com/JeffACate/Code-Wars/blob/master/JavaScript-Katas/DecodeMorse.js) | 6 kyu |
+| [You're A Square](https://www.codewars.com/kata/54c27a33fb7da0db0100040e) | [here](https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/YoureASquare.cs) | 7 kyu |
+| [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001) | [here](https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SplitStringIntoPair.cs) | 6 kyu |
+| [List Filtering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd) | [here](https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/ListFiltering.cs) | 7 kyu |
+| [Triboonacci Sequence]() | [here](https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/TribonacciSequence.cs) | 6 kyu |
+| []() | [here]() |  kyu |
 
 <hr/>
 
-####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/YoureASquare.cs">You're A Square</a>
-
-|   Heading    |   Details  |
-| -----------  | ---------- |
-| Difficulty   | 7 kyu |
-| Instructions | Given an integral number, determine if it's a square number: In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself. |
-| Examples     | -1 => false <br/> 0 => true <br/> 3 => false <br/> 4 => true <br/> 25 => true <br/> 26 => false <br/> |
-| Notes        |  The tests will always use some integral number, so don't worry about that in dynamic typed languages. |
-| Tags         | Fundamentals |
-
-<hr/>
-
-####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/SplitStringIntoPair.cs">Split Strings</a>
-
-|   Heading    |   Details  |
-| -----------  | ---------- |
-| Difficulty   | 6 kyu |
-| Instructions | Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_'). |
-| Examples     | "abc" => ["ab", "c_"] <br/> "abcdef" => ["ab", "cd", "ef"] <br/> |
-| Notes        | |
-| Tags         |Algorithms <br/>Regular Expressions <br/>Declarative Programming <br/> Advanced Language Features <br/> Fundamentals <br/> Strings <br/>|
-
-<hr/>
-
-####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/ListFiltering.cs">List Filtering</a>
-|   Heading    |   Details  |
-| -----------  | ---------- |
-| Difficulty   | 7 kyu |
-| Instructions | In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out. |
-| Examples     | {1, 2, "a", "b"} => {1, 2}<br/> {1, 2, "a", "b", 0, 15} => {1, 2, 0, 15}<br/> {1, 2, "a", "b", "aasf", "1", "123", 231} => {1, 2, 231}<br />  |
-| Notes        |  |
-| Tags         | Fundamentals<br/> Lists<br/> Data Structures<br/> Filtering<br/> Algorithms |
-
-<hr/>
 
 ####  Name: <a href="https://github.com/JeffACate/Code-Wars/blob/master/Code-Wars-Repo/CodeWars_Environment/TribonacciSequence.cs">Triboonacci Sequence</a>
 |   Heading    |   Details  |
