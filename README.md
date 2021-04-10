@@ -5,6 +5,7 @@
 
  -->
 
+This is a list of white-boarding challenges I've completed to keep my mind fresh.
 
 |   Count   |   Kata   |   Code   |   Difficulty   |
 | --------- | -------  | -------- | -------------- |
