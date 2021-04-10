@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="DescendingOrder.cs" />
+    <Compile Include="DirectionReduction.cs" />
     <Compile Include="DuplicateEncoder.cs" />
     <Compile Include="FindIntAppearingOddTimes.cs" />
     <Compile Include="ListFiltering.cs" />
