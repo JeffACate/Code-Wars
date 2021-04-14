@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace CodeWars_Environment
@@ -10,25 +11,28 @@ namespace CodeWars_Environment
     {
         public static void Run()
         {
-            StripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new string[] { "#", "!" });
+            StripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new char[] { '#', '!' });
         }
-        public static string StripComments(string text, string[] commentSymbols)
+        public static string StripComments(string text, char[] commentSymbols)
         {
+            string temp = $"[{commentSymbols[0]}{commentSymbols[1]}]";
+            string pattern = temp + @"[\s\w]*";
+            RegexOptions options = RegexOptions.Multiline;
+            Regex regex = new Regex(pattern, options);
+            
+            string substitution = @"";
+
             string[] lines = text.Split('\n');
-            int comment;
-            foreach (string line in lines)
+            for (int i = 0; i < lines.Length; i++)
             {
-                if (line.Contains(commentSymbols[0]))
-                {
-                    comment = line.IndexOf(commentSymbols[0]);
-                }
-                else if (line.Contains(commentSymbols[1])
-                {
-                    comment = line.IndexOf(commentSymbols[0]);
-                }
-                Console.WriteLine(line.Substring(0, comment));
+                lines[i] = regex.Replace(lines[i], substitution).TrimEnd();
             }
-            return "";
+
+            string result = string.Join("\n",lines);
+
+            Console.WriteLine(result);
+            
+            return result;
         }
     }
 }

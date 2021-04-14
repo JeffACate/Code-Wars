@@ -73,6 +73,7 @@
     <Compile Include="CustomMath.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snail.cs" />
     <Compile Include="SplitStringIntoPair.cs" />
     <Compile Include="SquareEveryDigit.cs" />
     <Compile Include="StripComment.cs" />

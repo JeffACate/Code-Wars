@@ -21,7 +21,18 @@ namespace CodeWars_Environment
             //SplitStringIntoPair.Run();
             //YoureASquare.Run();
             //MovingZerosToEnd.Run();
-            StripComment.Run();
+
+            Snail.Run();
+
+
+
+
+            /*  TO DO
+             *  
+             * NEED TO LEAN REGEX
+             * StripComment.Run();
+             * 
+            */
         }
     }
 }
