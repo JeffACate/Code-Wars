@@ -1,0 +1,2 @@
+﻿// GoodVsEvilKata.Run();
+DirectionReductionKata.Run();
