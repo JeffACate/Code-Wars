@@ -1,25 +1,28 @@
+using System;
+using System.Linq;
+
 public static class GoodVsEvilKata
 {
     static void good()
     {
-        System.Console.WriteLine("good");
+        Console.WriteLine("good");
         var expectedResults = "Battle Result: Good triumphs over Evil";
         var actualResults = GoodVsEvil("0 0 0 0 0 10", "0 1 1 1 1 0 0");
-        System.Console.WriteLine($"{expectedResults == actualResults} => {expectedResults} | {actualResults}");
+        Console.WriteLine($"{expectedResults == actualResults} => {expectedResults} | {actualResults}");
     }
     static void ShouldBeATie()
     {
-        System.Console.WriteLine("tie");
+        Console.WriteLine("tie");
         var expectedResults = "Battle Result: No victor on this battle field";
         var actualResults = GoodVsEvil("1 0 0 0 0 0", "1 0 0 0 0 0 0");
-        System.Console.WriteLine($"{expectedResults == actualResults} => {expectedResults} | {actualResults}");
+        Console.WriteLine($"{expectedResults == actualResults} => {expectedResults} | {actualResults}");
     }
     static void EvilShouldWin()
     {
-        System.Console.WriteLine("evil");
+        Console.WriteLine("evil");
         var expectedResults = "Battle Result: Evil eradicates all trace of Good";
         var actualResults = GoodVsEvil("1 1 1 1 1 1", "1 1 1 1 1 1 1");
-        System.Console.WriteLine($"{expectedResults == actualResults} => {expectedResults} | {actualResults}");
+        Console.WriteLine($"{expectedResults == actualResults} => {expectedResults} | {actualResults}");
     }
 
     static string GoodVsEvil(string good, string evil)

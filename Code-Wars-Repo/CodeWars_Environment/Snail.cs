@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeWars_Environment
 {
@@ -39,7 +36,7 @@ namespace CodeWars_Environment
             {
                 list.Add(array[lastLine - 1][k]);
             }
-            
+
             //
             // TO DO: implimend recursion
             //

@@ -1,17 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// GoodVsEvilKata.Run();
+DirectionReductionKata.Run();
 
-namespace CodeWars_Environment
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Application.Start();
-            Console.ReadLine();
-        }
-    }
-}
+//CustomMath.Run();
+//SquareEveryDigit.Run();
+//DescendingOrder.Run();
+//DuplicateEncoder.Run();
+//FindIntAppearingOddTimes.Run();
+//TribonacciSequence.Run();
+//ListFiltering.Run();
+//SplitStringIntoPair.Run();
+//YoureASquare.Run();
+//MovingZerosToEnd.Run();
+
+// Snail.Run();
+
+/*  TO DO
+    *  
+    * NEED TO LEAN REGEX
+    * StripComment.Run();
+    * 
+*/

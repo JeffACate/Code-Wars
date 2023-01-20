@@ -1,5 +1,4 @@
 using System;
-using System.Web.Helpers;
 
 namespace CodeWars_Environment
 {
@@ -7,8 +6,8 @@ namespace CodeWars_Environment
     {
         public static void Run()
         {
-            Console.WriteLine("abc " + " should return [\"ab\", \"c_\"] =>" + Json.Encode(Solution("abc"))); // should return ["ab", "c_"]
-            Console.WriteLine("abcdef " + " should return [\"ab\", \"cd\", \"ef\"] =>" + Json.Encode(Solution("abcdef"))); // should return ["ab", "cd", "ef"]
+            // Console.WriteLine("abc " + " should return [\"ab\", \"c_\"] =>" + Json.Encode(Solution("abc"))); // should return ["ab", "c_"]
+            // Console.WriteLine("abcdef " + " should return [\"ab\", \"cd\", \"ef\"] =>" + Json.Encode(Solution("abcdef"))); // should return ["ab", "cd", "ef"]
             Console.ReadLine();
         }
 
@@ -21,7 +20,7 @@ namespace CodeWars_Environment
                 string pair = "";
                 int j = i + 1;
                 pair = str[i].ToString();
-                if( j <= str.Length-1)
+                if (j <= str.Length - 1)
                 {
                     pair += str[j].ToString();
                 }
@@ -29,7 +28,7 @@ namespace CodeWars_Environment
                 {
                     pair += "_";
                 }
-                if(i%2==0)
+                if (i % 2 == 0)
                 {
                     sol[next] = pair;
                     next++;
