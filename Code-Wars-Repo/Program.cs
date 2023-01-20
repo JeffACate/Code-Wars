@@ -1,4 +1,6 @@
-﻿// GoodVsEvilKata.Run();
+﻿global using System.Text.RegularExpressions;
+
+// GoodVsEvilKata.Run();
 DirectionReductionKata.Run();
 
 //CustomMath.Run();

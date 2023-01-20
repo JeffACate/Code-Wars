@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CodeWars_Environment/1.0.0": {
+        "runtime": {
+          "CodeWars_Environment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeWars_Environment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
