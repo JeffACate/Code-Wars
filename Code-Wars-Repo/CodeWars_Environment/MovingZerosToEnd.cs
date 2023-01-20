@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeWars_Environment
+﻿namespace CodeWars_Environment
 {
     class MovingZerosToEnd
     {
         public static void Run()
         {
-            int[] sortedArr = MoveZeroes(new int[] { 1, 2, 0, 1, 0, 1, 0, 3, 0, 1});
+            int[] sortedArr = MoveZeroes(new int[] { 1, 2, 0, 1, 0, 1, 0, 3, 0, 1 });
             DisplayArr(sortedArr);
-            
-            sortedArr = MoveZeroes(new int[] { 0, 0, 0});
+
+            sortedArr = MoveZeroes(new int[] { 0, 0, 0 });
             DisplayArr(sortedArr);
         }
 
@@ -21,10 +15,10 @@ namespace CodeWars_Environment
         {
             int count = 0;
             int j = 0;
-            
+
             for (int i = 0; i <= arr.Length - 1; i++)
             {
-                if(arr[i] == 0)
+                if (arr[i] == 0)
                 {
                     count++;
                 }
@@ -34,14 +28,14 @@ namespace CodeWars_Environment
                     j++;
                 }
             }
-            while(count > 0)
+            while (count > 0)
             {
                 arr[j] = 0;
                 j++;
                 count--;
             }
             // TODO: Program me
-            return arr;        
+            return arr;
         }
 
         static void DisplayArr(int[] arr)

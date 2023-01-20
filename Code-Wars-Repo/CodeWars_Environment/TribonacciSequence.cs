@@ -1,5 +1,4 @@
-﻿using System;
-namespace CodeWars_Environment
+﻿namespace CodeWars_Environment
 {
     public static class TribonacciSequence
     {

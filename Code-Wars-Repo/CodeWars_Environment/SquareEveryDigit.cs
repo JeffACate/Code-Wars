@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeWars_Environment
+﻿namespace CodeWars_Environment
 {
     class SquareEveryDigit
     {
@@ -19,13 +13,13 @@ namespace CodeWars_Environment
         {
             Stack<string> squaredDigit = new Stack<string>();
             int result;
-            for (int i = testNumber; i >  0; i = (i - (i % 10))/10)
+            for (int i = testNumber; i > 0; i = (i - (i % 10)) / 10)
             {
                 int number = i % 10;
-                squaredDigit.Push(Math.Pow(number,2).ToString());
+                squaredDigit.Push(Math.Pow(number, 2).ToString());
             }
             string resultAsStrings = "";
-            while(squaredDigit.Count > 0)
+            while (squaredDigit.Count > 0)
             {
                 resultAsStrings = resultAsStrings + squaredDigit.Pop().ToString();
             }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CodeWars_Environment
+﻿namespace CodeWars_Environment
 {
     public static class Snail
     {

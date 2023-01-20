@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeWars_Environment
+﻿namespace CodeWars_Environment
 {
     public static class DuplicateEncoder
     {
@@ -35,4 +29,4 @@ namespace CodeWars_Environment
             return result;
         }
     }
-} 
+}

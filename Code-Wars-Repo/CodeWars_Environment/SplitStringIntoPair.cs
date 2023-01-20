@@ -1,5 +1,3 @@
-using System;
-
 namespace CodeWars_Environment
 {
     public static class SplitStringIntoPair

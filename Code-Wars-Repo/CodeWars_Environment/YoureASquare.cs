@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CodeWars_Environment
+﻿namespace CodeWars_Environment
 {
     class YoureASquare
     {

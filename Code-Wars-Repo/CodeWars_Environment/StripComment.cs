@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace CodeWars_Environment
 {
@@ -19,7 +14,7 @@ namespace CodeWars_Environment
             string pattern = temp + @"[\s\w]*";
             RegexOptions options = RegexOptions.Multiline;
             Regex regex = new Regex(pattern, options);
-            
+
             string substitution = @"";
 
             string[] lines = text.Split('\n');
@@ -28,10 +23,10 @@ namespace CodeWars_Environment
                 lines[i] = regex.Replace(lines[i], substitution).TrimEnd();
             }
 
-            string result = string.Join("\n",lines);
+            string result = string.Join("\n", lines);
 
             Console.WriteLine(result);
-            
+
             return result;
         }
     }
