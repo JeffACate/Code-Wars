@@ -6,23 +6,14 @@
     }
     public static string StripComments(string text, char[] commentSymbols)
     {
-        string temp = $"[{commentSymbols[0]}{commentSymbols[1]}]";
-        string pattern = temp + @"[\s\w]*";
-        RegexOptions options = RegexOptions.Multiline;
-        Regex regex = new Regex(pattern, options);
-
-        string substitution = @"";
-
-        string[] lines = text.Split('\n');
-        for (int i = 0; i < lines.Length; i++)
+        var firstSymbol = commentSymbols.Length;
+        foreach (var sym in commentSymbols)
         {
-            lines[i] = regex.Replace(lines[i], substitution).TrimEnd();
+            if (text.IndexOf(sym) >= 0 && text.IndexOf(sym) < firstSymbol)
+            {
+                firstSymbol = sym;
+            }
         }
-
-        string result = string.Join("\n", lines);
-
-        Console.WriteLine(result);
-
-        return result;
+        return text.Substring(0, firstSymbol);
     }
 }

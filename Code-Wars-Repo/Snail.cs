@@ -1,13 +1,60 @@
-﻿public static class Snail
+﻿public class Snail
 {
-    public static int[] Run()
+    private int[][] array =
     {
-        int[][] array =
+        new []{1, 2, 3},
+        new []{4, 5, 6},
+        new []{7, 8, 9}
+    };
+    private int height;
+    private int width;
+
+    public Snail()
+    {
+        height = array.Length;
+        width = array[0].Count();
+    }
+
+    public int[] Run()
+    {
+        var list = new List<int>();
+        DisplayDims();
+
+        for (int i = 0; i < width - 1; i++)
         {
-            new []{1, 2, 3},
-            new []{4, 5, 6},
-            new []{7, 8, 9}
-        };
+            list.Add(array[0][i]);
+            Console.Write(array[0][i]);
+        }
+        Console.WriteLine();
+
+        for (int i = 0; i < height; i++)
+        {
+            Console.Write(array[i][width - 1]);
+            list.Add(array[i][width - 1]);
+        }
+        Console.WriteLine();
+
+        width--;
+        height--;
+        DisplayDims();
+
+        for (int i = width - 1; i >= 0; i--)
+        {
+            list.Add(array[height][i]);
+            Console.Write(array[height][i]);
+        }
+        Console.WriteLine();
+
+        return list.ToArray();
+    }
+    public void DisplayDims()
+    {
+        Console.WriteLine("Height " + height);
+        Console.WriteLine("Width " + width);
+    }
+
+    public int[] Run1()
+    {
         List<int> list = new List<int>();
         foreach (int item in array[0])
         {

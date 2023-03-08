@@ -1,8 +1,9 @@
 ﻿global using System.Text.RegularExpressions;
 
-// GoodVsEvilKata.Run();
-DirectionReductionKata.Run();
 
+
+// GoodVsEvilKata.Run();
+// DirectionReductionKata.Run();
 //CustomMath.Run();
 //SquareEveryDigit.Run();
 //DescendingOrder.Run();
@@ -13,8 +14,13 @@ DirectionReductionKata.Run();
 //SplitStringIntoPair.Run();
 //YoureASquare.Run();
 //MovingZerosToEnd.Run();
-
-// Snail.Run();
+Console.WriteLine("Kata Started");
+var snail = new Snail();
+var result = snail.Run();
+foreach (var num in result)
+{
+    Console.Write($"{num}  ");
+}
 
 /*  TO DO
     *  
