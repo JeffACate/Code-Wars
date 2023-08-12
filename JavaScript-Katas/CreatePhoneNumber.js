@@ -3,16 +3,29 @@ function createPhoneNumber(numbers){
     return "";
 }
 
-function tests() {
-    console.log(assert(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]), "(123) 456-7890"));
-    console.log(assert(createPhoneNumber([1, 1, 1, 1, 1, 1, 1, 1, 1, 1]), "(111) 111-1111"));
-    console.log(assert(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]), "(123) 456-7890"));
+function runTests(tests) {
+    tests.forEach((test) => {
+        console.log(`${test.actual} | ${test.expected} ${assert(createPhoneNumber(test.actual), test.expected)}`);
+    });
 }
 
-function assert(actual, expected) {
-    console.log(actual);
-    console.log(`${(actual === expected ? "pass" : "fail")}`);
+function assert(actual, expected) { 
     return actual === expected;
 } 
 
-tests();
+runTests(
+    [
+        {
+            actual:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 0],
+            expected: "(123) 456-7890"
+        },
+        {
+            actual: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+            expected: "(111) 111-1111"
+        },
+        {
+            actual: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], 
+            expected: "(123) 456-7890"
+        }
+    ]
+);
