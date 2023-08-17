@@ -4,8 +4,8 @@ const TestRunner = require('./TestRunner');
 
 function sumIntervals(intervals) {
   //TODO
-  
-  return "";
+
+  return '';
 }
 
 const runner = new TestRunner.TestRunner();
@@ -18,6 +18,13 @@ runner.runArrTests(
         [3, 5],
       ],
       expected: 4,
+    },
+    {
+      actual: [
+        [1, 5],
+        [6, 10],
+      ],
+      expected: 8,
     },
   ],
   sumIntervals
