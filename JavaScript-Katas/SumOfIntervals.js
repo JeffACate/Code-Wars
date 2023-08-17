@@ -1,0 +1,24 @@
+'use strict';
+
+const TestRunner = require('./TestRunner');
+
+function sumIntervals(intervals) {
+  //TODO
+  
+  return "";
+}
+
+const runner = new TestRunner.TestRunner();
+runner.runArrTests(
+  [
+    {
+      actual: [
+        [1, 4],
+        [7, 10],
+        [3, 5],
+      ],
+      expected: 4,
+    },
+  ],
+  sumIntervals
+);
