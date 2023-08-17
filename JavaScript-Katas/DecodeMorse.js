@@ -87,10 +87,6 @@ function decode(str) {
   return result.join('');
 }
 
-// console.log("\'.... . .-.. .-.. ---  .-- --- .-. .-.. -..  \' → \"hello world\"", decode(".... . .-.. .-.. ---  .-- --- .-. .-.. -..") === "hello world");
-// console.log("\'.---- ... -  .- -. -..  ..--- -. -..        \' → \"1st and 2nd\"", decode(".---- ... -  .- -. -..  ..--- -. -..") === "1st and 2nd");
-// console.log("                                            \'\' → \'\'", decode("") === "");
-
 const runner = new TestRunner.TestRunner();
 runner.runTests(
   [
