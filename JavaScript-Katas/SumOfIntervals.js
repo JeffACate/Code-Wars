@@ -26,6 +26,10 @@ runner.runArrTests(
       ],
       expected: 8,
     },
+    {
+      actual: [-1e9, 1e9],
+      expected: 2e9
+    },
   ],
   sumIntervals
 );
