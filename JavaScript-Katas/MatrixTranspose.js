@@ -1,10 +1,10 @@
-console.log('JS Kata');
+'use strict'
+
+const TestRunner = require('./TestRunner')
 
 function transpose(matrix) {
     var columns = matrix[0].length;
-    console.log(`rows = ${columns}`);
     var rows = matrix.length;
-    console.log(`column = ${rows}`);
 
     if (columns === 1) return matrix;
     var transform = Array.from(Array(columns), () => new Array(rows));
@@ -17,5 +17,17 @@ function transpose(matrix) {
     return transform;
 }
 
-console.log(transpose([[1]]), "equals", [[1]]);
-console.log(transpose([[1,2,3],[4,5,6]]), " equals ", [[1,4],[2,5],[3,6]]);
+const runner = new TestRunner.TestRunner();
+runner.runArrTests(
+    [
+        {
+            actual:  [[1]],
+            expected: [[1]]
+        },
+        {
+            actual: [[1,2,3],[4,5,6]], 
+            expected: [[1,4],[2,5],[3,6]]
+        }
+    ],
+    transpose
+);
