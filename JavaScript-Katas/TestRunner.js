@@ -13,7 +13,7 @@ module.exports = {
     // output: arr
     runArrTests(tests, temp){
       tests.forEach((test) => {
-        console.log(`${temp(test.actual).toString()} | ${test.expected.toString()} => ${this.assert(temp(test.actual).toString(), test.expected.toString())}`);
+        console.log(`${test.actual.toString()} | ${test.expected.toString()} => ${this.assert(temp(test.actual).toString(), test.expected.toString())}`);
       })
     }
 
