@@ -24,7 +24,7 @@ public class JiraIntegration
     /// </summary>
     public async Task<string> GetTickets(string jql, int maxResults = 50)
     {
-        string endpoint = $"https://{_domain}/rest/api/3/search?jql={Uri.EscapeDataString(jql)}&maxResults={maxResults}";
+        var endpoint = $"https://{_domain}/rest/api/3/search?jql={Uri.EscapeDataString(jql)}&maxResults={maxResults}";
         return await MakeRequest("GET", endpoint);
     }
 
@@ -33,7 +33,7 @@ public class JiraIntegration
     /// </summary>
     public async Task<string> GetTicket(string ticketKey)
     {
-        string endpoint = $"https://{_domain}/rest/api/3/issue/{ticketKey}";
+        var endpoint = $"https://{_domain}/rest/api/3/issue/{ticketKey}";
         return await MakeRequest("GET", endpoint);
     }
 
@@ -42,7 +42,7 @@ public class JiraIntegration
     /// </summary>
     public async Task<string> CreateTicket(string projectKey, string issueType, string summary, string description)
     {
-        string endpoint = $"https://{_domain}/rest/api/3/issue";
+        var endpoint = $"https://{_domain}/rest/api/3/issue";
         
         var payload = new
         {
@@ -55,7 +55,7 @@ public class JiraIntegration
             }
         };
 
-        string jsonPayload = JsonSerializer.Serialize(payload);
+        var jsonPayload = JsonSerializer.Serialize(payload);
         return await MakeRequest("POST", endpoint, jsonPayload);
     }
 
@@ -69,7 +69,7 @@ public class JiraIntegration
             var request = new HttpRequestMessage(new HttpMethod(method), url);
             
             // Add Basic Auth header
-            string credentials = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{_email}:{_apiKey}"));
+            var credentials = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{_email}:{_apiKey}"));
             request.Headers.Add("Authorization", $"Basic {credentials}");
             request.Headers.Add("Accept", "application/json");
 
@@ -79,7 +79,7 @@ public class JiraIntegration
             }
 
             var response = await _httpClient.SendAsync(request);
-            string responseContent = await response.Content.ReadAsStringAsync();
+            var responseContent = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
             {
