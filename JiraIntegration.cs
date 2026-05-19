@@ -21,6 +21,7 @@ public class JiraIntegration
 
     /// <summary>
     /// Get tickets from Jira using JQL query
+    /// See: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-search/#api-rest-api-3-search-get
     /// </summary>
     public async Task<string> GetTickets(string jql, int maxResults = 50)
     {
