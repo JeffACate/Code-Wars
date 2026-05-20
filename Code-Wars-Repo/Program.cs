@@ -1,6 +1,6 @@
 ﻿global using System.Text.RegularExpressions;
 
-
+System.Console.WriteLine();
 
 // GoodVsEvilKata.Run();
 // DirectionReductionKata.Run();

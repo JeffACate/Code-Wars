@@ -4,6 +4,8 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
+#nullable disable
+
 public class JiraIntegration
 {
     private readonly string _domain;
@@ -21,12 +23,19 @@ public class JiraIntegration
 
     /// <summary>
     /// Get tickets from Jira using JQL query
-    /// See: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-search/#api-rest-api-3-search-get
+    /// See: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-search/#api-rest-api-3-search-post
     /// </summary>
     public async Task<string> GetTickets(string jql, int maxResults = 50)
     {
-        var endpoint = $"https://{_domain}/rest/api/3/search?jql={Uri.EscapeDataString(jql)}&maxResults={maxResults}";
-        return await MakeRequest("GET", endpoint);
+        var endpoint = $"https://{_domain}/rest/api/3/search/jql";
+        var payload = new
+        {
+            jql = jql,
+            fields = new[] { "id", "key","status" },
+            maxResults = maxResults
+        };
+        var jsonPayload = JsonSerializer.Serialize(payload);
+        return await MakeRequest("POST", endpoint, jsonPayload);
     }
 
     /// <summary>
